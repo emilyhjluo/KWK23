@@ -1,23 +1,10 @@
-#  CoreML Sample App
-An starter app that takes a CoreML (.mlmodel) file and can display live classification results from camera input. 
-
-## Instructions
-1. Import model & point to model class
-* Export the model from Co-ML and download the .mlmodel file to your computer
-* Drag the .mlmodel file into the starter app (under the `1-Model` folder)
-* In `PredictionStatus,` set `modelObject` to the name or your model.  For example, a model named `Produce.mlmodel` would be `var modelObject = Produce()`
-
-2. Edit Data (JSON & Swift)
-* Decide what type of information you want to appear in the app for each label.  See `2-Data > mydata.json` as an example.
-* Edit `2-Data > mydata.json` with the labels in your classifier and any associated data you want to appear (e.g., replace “water” or “emoji” with your custom content)
-* in `2-Data > Classification.swift`, edit based on the format of the data in your JSON file (change names of keys, provide type for value, and provide default values)
-
-
-2. Edit UI 
-* Classification UI: Edit `3-UI > PredictionResultView.swift` based on the content you want to appear when the classifier identifies an object.  You can view a preview of the UI if you open up Canvas in XCode (it will show the default values you added in `Classification.swift`)
-* Launch screen: `3-UI > LaunchScreenView.swift` to customize the launch screen contents
-
-## Extra Credit: Add an About page 
-* Edit `3-UI > AboutView.swift` to share details about who created the app 
-
-
+<!DocType>
+<html>
+  <h1>This app was used for Apple's research in releasing Create-ML </h1>
+  <p>Using the image classifier from Create-Ml, we created an app!!!</p>
+  <p>Our app is called What Do You SEE? </p>
+  <p>This app is made by Emily Luo, Suri Le, Esther Song, and Emma Monzon.</p>
+  <p> Our app scans recyclable items and gives the user recommendations of a craft that is made by the recyclable item.</p>
+  <a href="https://docs.google.com/presentation/d/1RrU2NOkr6ZvoC6Pq4iVRbAG1SEsNY3d_/edit?usp=sharing&ouid=114510827548983904100&rtpof=true&sd=true">Presentation Slides</a>
+  <a href="https://drive.google.com/file/d/1iZDJa-9DVqVeckVhxMBg1LKw3IBlTb0E/view?usp=sharing">Demonstration Video</a>
+</html>
